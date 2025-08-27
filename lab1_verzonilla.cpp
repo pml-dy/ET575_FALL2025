@@ -42,8 +42,12 @@ int main()
     cin>>country;
     cout<<"What is your gender? (Use F/M)"<<endl;
     cin>>gender;
-    cout<<"Zip code:"
+    cout<<"Zip code:"<<endl;
+    cin>>zipcode;
+    cout<<"Tax rate:"<<endl;
+    cin>>rate;
     // print the result
+    cout<<
 
     return 0;
 }
