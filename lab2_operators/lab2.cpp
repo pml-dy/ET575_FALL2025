@@ -117,13 +117,13 @@ int main(){
     
     cout<<"\nAssignment Operations:"<<endl;
     // increment a by 10 and display updated value
-    cout<<"original a = "<<number1<<endl;
+    cout<<"original a = "<<a<<endl;
     a+=10;
-    cout<<"updated a = "<<number1<<endl;
+    cout<<"updated a = "<<a<<endl;
     // decrement b by 5 and display updated value
-    cout<<"original b = "<<number2<<endl;
+    cout<<"original b = "<<b<<endl;
     b-=5;
-    cout<<"updated b = "<<number2<<endl;
+    cout<<"updated b = "<<b<<endl;
 
     cout<<"\nBoolean Operations:"<<endl;
     // check and display the result of the following conditions
