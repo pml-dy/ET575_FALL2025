@@ -131,6 +131,7 @@ int main(){
     cout<<"Is a equal to b? "<<(a==b)<<endl;
     cout<<"Is a not equal to b? "<<(a!=b)<<endl;
     cout<<"Are both a and b positive numbers? "<<((a%2)&&(b%2))<<endl;
+    cout<<"Is either a or b negative? "<<((a<0)||(b<0))<<endl;
     cout<<"Is a not greater than b? "<<!(a>b)<<endl;
 
     return 0;
