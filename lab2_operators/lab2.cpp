@@ -99,6 +99,39 @@ int main(){
     cout<<"implicit casting = "<<m<<endl;
 
     cout<<"\n------ EXERCISE ------"<<endl;
+    cout<<"\nArithmetic Operations:"<<endl;
+    // ask user to declare variables a and b by inputting integers
+    int a=0, b=0;
+    cout<<"Input an integer for variable a: "<<endl;
+    cin>>a;
+    cout<<"Input an integer for variable b: "<<endl;
+    cin>>b;
+
+    // perform and display the results of addition, subtraction, multiplication, division, and modulus
+    // addition
+    cout<<"a+b = "<<a+b<<endl;
+    cout<<"a-b = "<<a-b<<endl;
+    cout<<"a*b = "<<a*b<<endl;
+    cout<<"a/b = "<<a/b<<endl;
+    cout<<"a&b = "<<a%b<<endl;
+    
+    cout<<"\nAssignment Operations:"<<endl;
+    // increment a by 10 and display updated value
+    cout<<"original a = "<<number1<<endl;
+    a+=10;
+    cout<<"updated a = "<<number1<<endl;
+    // decrement b by 5 and display updated value
+    cout<<"original b = "<<number2<<endl;
+    b-=5;
+    cout<<"updated b = "<<number2<<endl;
+
+    cout<<"\nBoolean Operations:"<<endl;
+    // check and display the result of the following conditions
+    cout<<"Is a greater than b? "<<(a>b)<<endl;
+    cout<<"Is a equal to b? "<<(a==b)<<endl;
+    cout<<"Is a not equal to b? "<<(a!=b)<<endl;
+    cout<<"Are both a and b positive numbers? "<<((a%2)&&(b%2))<<endl;
+    cout<<"Is a not greater than b? "<<!(a>b)<<endl;
 
     return 0;
 }
