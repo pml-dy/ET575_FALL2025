@@ -79,6 +79,6 @@ int main(){
     cout<<"Replace 2 characters from word: "<<word.replace(2,2,"--$--")<<endl;
     // remove 3 characters from the end of the word, print result
     cout<<"Remove 3 end characters: "<<word.erase(5,3)<<endl;
-
+    
     return 0;
 }
