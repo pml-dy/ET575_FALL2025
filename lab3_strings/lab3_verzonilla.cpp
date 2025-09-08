@@ -71,33 +71,14 @@ int main(){
     cout<<"Type any word that has 5 characters: "<<endl;
     cin>>word;
     // print the 2nd character of the word
-    cout<<"2nd character: "<<word[2]<<endl;
+    cout<<"2nd character: "<<word[1]<<endl;
     // find and print the length of the word
-    cout<<"Word has "<<word.length()<<" characters."<<endl;
+    int length_word = word.length();
+    cout<<"Word has "<<length_word<<" characters."<<endl;
     // replace 2 characters from the 3rd character with "-- $ --", print result
-    cout<<"Replace word: "<<word.replace(2,2,"--$--")<<endl;
+    cout<<"Replace 2 characters from word: "<<word.replace(2,2,"--$--")<<endl;
     // remove 3 characters from the end of the word, print result
     cout<<"Remove 3 end characters: "<<word.erase(5,3)<<endl;
-    
-    /*
-    Pick two AI assistants.
-
-    --- AI Assistant Used: ---
-    Was the code correct?
-    Was it readable and properly commented?
-    Were you able to explain each line of code?
-    Did it use the same programming concepts we learned in class?
-    Terminal Output:
-    
-    --- AI Assistant Used: ---
-    Was the code correct?
-    Was it readable and properly commented?
-    Were you able to explain each line of code?
-    Did it use the same programming concepts we learned in class?
-    Terminal Output:
-    
-    */
-
 
     return 0;
 }
