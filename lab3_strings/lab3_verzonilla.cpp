@@ -67,9 +67,8 @@ int main(){
 
     cout<<"\n------ EXERCISE -----"<<endl;
     // ask the user to type a word from the keyboard, save in a variable named "word"
-    // was not too sure how to remove end characters, so i specified the amount of characters for input
     string word="";
-    cout<<"Type any word that has 5 characters: "<<endl;
+    cout<<"Type any word: "<<endl;
     cin>>word;
     // print the 2nd character of the word
     cout<<"2nd character: "<<word[1]<<endl;
@@ -79,7 +78,7 @@ int main(){
     // replace 2 characters from the 3rd character with "-- $ --", print result
     cout<<"Replace 2 characters from word: "<<word.replace(2,2,"--$--")<<endl;
     // remove 3 characters from the end of the word, print result
-    cout<<"Remove 3 end characters: "<<word.erase(5,3)<<endl;
-
+    cout<<"Remove 3 end characters: "<<word.erase(word.length()-3,3)<<endl;
+    
     return 0;
 }
