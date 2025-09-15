@@ -127,6 +127,7 @@ int main(){
     cout<<"Enter your savings balance: "<<endl;
     cin>>savings;
 
+    // using nested conditional statements
     if (savings>0&&savings<199999){
         cout<<"Keep saving!"<<endl;
     }
