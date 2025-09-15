@@ -9,8 +9,8 @@ using namespace std;
 
 // ACTIVITY 1
 
-int activity1() {
-    cout<<"------ ACTIVITY 1 ------"<<endl;
+int main() {
+    cout<<"\n------ ACTIVITY 1 ------"<<endl;
     // step 1
     string welcome = "Welcome to ";
     string city = "New York City ";
@@ -19,13 +19,22 @@ int activity1() {
     cout<<"Please enter your name: ";
     cin>>name;
     // step 3
-    string concatenaded=welcome+city+name;
+    string concat=welcome+city+name;
     // step 4
-    cout<<concatenaded<<endl;
+    cout<<concat<<endl;
     // step 5
+    int length=concat.length();
     // step 6
-    // step 7
+    int index_ma=concat.find("ma");
+    // step 7: i used two different variables here because my last results had the original concatenated message replaced as well, so this resolved that issue
+    string replace1=concat;
+    string replace2=replace1.replace(index_ma,2,"%---%");
     // step 8
+    cout<<"\n------ RESULT ACTIVITY 1 ------"<<endl;
+    cout<<"Concatenated Message:\t\t"<<concat<<endl;
+    cout<<"Message Length:\t\t"<<length<<endl;
+    cout<<"Index of Character 'ma':\t\t"<<index_ma<<endl;
+    cout<<"Replace 'ma'; with %---%:\t\t"<<replace2<<endl;
 
     return 0;
 }
